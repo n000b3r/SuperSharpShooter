@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: supersharpshooter
+Version: 0.1.1
+Summary: SuperSharpShooter
+Requires-Python: >=3.9
+Requires-Dist: jsmin>=3.0.1
+Requires-Dist: colorama

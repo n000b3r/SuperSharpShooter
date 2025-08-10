@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "supersharpshooter"
+version = "0.1.1"
+description = "SuperSharpShooter"
+requires-python = ">=3.9"
+dependencies = ["jsmin>=3.0.1", "colorama"]
+
+[project.scripts]
+supersharpshooter = "supersharpshooter_cli:main"
+
+[tool.setuptools]
+py-modules = ["SuperSharpShooter", "supersharpshooter_cli"]
+packages = ["modules", "templates"]
+
+[tool.setuptools.package-data]
+templates = ["*.js"]
