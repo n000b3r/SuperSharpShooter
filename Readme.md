@@ -1,7 +1,7 @@
 Forking... and fixing a couple of things.
 
 Newest:
-Install with pipx install .
+Install with `pipx install git+https://github.com/n000b3r/SuperSharpShooter.git`
 
 What's new:
 1. Fixed the amsiEnable bypass to use the filelocation-independent version
